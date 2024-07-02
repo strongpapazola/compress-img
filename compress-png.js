@@ -44,8 +44,8 @@ async function compressImg(imagePath, options = {}) {
 }
 
 // Example usage
-compressImg('path/to/your/image.jpg', {
-    newRatio: 0.9,
-    quality: 85,
+compressImg('add_user_certnexus_1.png', {
+    newRatio: 0.5,
+    quality: 50,
     toJpg: true
 });
